@@ -1,0 +1,35 @@
+@startuml
+|Visitante / Participante|
+start
+:abre o site (QR code / link na divulgação);
+note right
+  Não há formulários nem coleta de dados
+  pessoais. Contato apenas por e-mail
+  (mailto), Instagram e WhatsApp da organização.
+end note
+:visualiza hero (nome do evento, data, local, CTA);
+
+if (deseja ver programação?) then (sim)
+  :abre /programacao;
+  if (filtra por tipo?) then (palestra)
+    :filtra PALESTRAS;
+  elseif (oficina) then
+    :filtra OFICINAS;
+    :acessa /oficina/:id;
+    :consulta vagas publicadas (20 / esgotada);
+    :entra em contato pelos canais da organização\n(presencial / e-mail / Instagram) se quiser garantir vaga;
+  endif
+  :consulta detalhes do palestrante (bio, foto, título);
+else (não)
+  if (é dia do evento?) then (sim)
+    :acessa "modo evento";
+    :vê "agora na programação" + avisos urgentes;
+    :vê mapa/localização;
+  else (não)
+    :vê patrocinadores;
+    :vê sobre/contato;
+    :vê como chegar;
+  endif
+endif
+stop
+@enduml

@@ -1,0 +1,51 @@
+@startuml
+skinparam componentStyle rectangle
+
+package "Cliente (browser)" {
+  [Interface Web (PWA)]
+  [Service Worker (offline/cache)]
+}
+
+package "Site estático (build)" {
+  [HTML/CSS/JS - SPA mobile-first]
+  [Tema/Design System compartilhado]
+  [Gerador/compilador em build time]
+}
+
+package "Conteúdo (repositório)" {
+  file "evento.json" {
+    [Evento + Logos]
+  }
+  file "sessoes.json" {
+    [Programação + palestrantes da sessão]
+  }
+  file "palestrantes.json" {
+    [Bios, fotos, Lattes]
+  }
+  file "patrocinadores.json" {
+    [Tarja de logos]
+  }
+  file "avisos.json" {
+    [Avisos/última hora]
+  }
+}
+
+package "Infra (deploy estático)" {
+  [Hospedagem estática (Vercel/Netlify/GitHub Pages)]
+  [Domínio do evento]
+}
+
+[Interface Web (PWA)] --> [Site estático (build)] : HTTPS
+[Site estático (build)] --> [Conteúdo (repositório)] : lê na compilação (CSVs → JSON)
+[Service Worker (offline/cache)] --> [Conteúdo (repositório)] : cache da grade no dispositivo
+[Site estático (build)] --> [Hospedagem estática (Vercel/Netlify/GitHub Pages)] : deploy
+[Hospedagem estática (Vercel/Netlify/GitHub Pages)] --> [Domínio do evento] : DNS/HTTPS
+
+note left of [Conteúdo (repositório)]
+  FONTES PRIMÁRIAS: CSVs em 01_dados/
+  (palestrantes, programação, patrocinadores...)
+  convertidos em JSON no build.
+  SEM banco de dados e SEM API - qualquer
+  atualização = editar arquivos + deploy.
+end note
+@enduml

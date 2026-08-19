@@ -1,0 +1,84 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class PaginaPadrao <<SITE>> {
+  - carregarDados(url) : object
+  - renderizar(modelo) : void
+}
+
+class Evento {
+  - nome : string
+  - descricao : string
+  - data_inicio : Date
+  - data_fim : Date
+  - local : string
+  - logos : string[]
+  - url_site : string
+  + obterProgramacao() : Sessao[]
+}
+
+class Sessao {
+  - id : int
+  - tipo : enum [PALESTRA, OFICINA]
+  - titulo : string
+  - descricao : string
+  - data : Date
+  - horario_inicio : Time
+  - horario_fim : Time
+  - duracao_min : int
+  - local_sala : string
+  + estaAtivaAgora() : boolean
+}
+
+class Palestrante {
+  - id : int
+  - nome : string
+  - titulo_profissional : string
+  - instituicao : string
+  - email : string (público, se autorizado)
+  - bio : string
+  - foto : string (URL)
+  - lattes : string (URL)
+  - ordem_exibicao : int
+}
+
+class Oficina {
+  - vagas_totais : int
+  - vagas_ocupadas : int (snapshot publicada pelos organizadores)
+  + isLotada() : boolean
+}
+
+class Patrocinador {
+  - id : int
+  - nome : string
+  - logo : string (URL)
+  - site : string (URL)
+  - nivel : enum [PATROCINIO, APOIO, REALIZACAO]
+}
+
+class Aviso {
+  - id : int
+  - titulo : string
+  - mensagem : string
+  - publicado_em : DateTime
+  - urgente : boolean
+}
+
+Evento "1" *-- "0..*" Sessao
+Sessao "0..*" --> "0..*" Palestrante : apresenta
+Evento "1" *-- "0..*" Patrocinador
+Evento "1" *-- "0..*" Aviso
+Sessao "0..1" -- "0..1" Oficina : especialização de
+Palestrante "0..*" --> "1" Sessao : conduz
+Patrocinador "0..*" --> "1" Evento : apoia
+Aviso "0..*" --> "1" Evento : pertence
+
+note right of PaginaPadrao
+  Site 100% estático: SEM banco de dados,
+  SEM backend e SEM coleta de dados pessoais.
+  Toda alteração de conteúdo é feita nos
+  arquivos JSON versionados no repositório
+  (fluxo de desenvolvimento) e publicada
+  por deploy estático.
+end note
+@enduml

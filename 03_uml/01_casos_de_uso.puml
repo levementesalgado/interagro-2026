@@ -1,0 +1,44 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+
+actor "Visitante\n(público externo)" as Visitante
+actor "Participante\n(aluno/público no dia)" as Participante
+
+rectangle "Site InterAgro (estático, sem banco de dados)" {
+  usecase "Visualizar página inicial\n(logo, data, local)" as UC01
+  usecase "Ver programação\ndo evento" as UC02
+  usecase "Filtrar programação\npor dia/tipo (palestra/oficina)" as UC03
+  usecase "Ver detalhes de um\npalestrante (bio, foto, título)" as UC04
+  usecase "Ver detalhes de uma oficina\n(vagas, duração, pré-requisitos)" as UC05
+  usecase "Consultar disponibilidade\nde vagas da oficina\n(leitura de dados publicados)" as UC06
+  usecase "Ver patrocinadores\n(logo, tarja)" as UC07
+  usecase "Ver mapa/localização" as UC08
+  usecase "Entrar em contato\n(e-mail/Instagram/WhatsApp)" as UC09
+  usecase "Consultar avisos\n(última hora no dia do evento)" as UC10
+}
+
+Visitante --> UC01
+Visitante --> UC02
+Visitante --> UC04
+Visitante --> UC07
+Visitante --> UC09
+
+Participante --> UC01
+Participante --> UC02
+Participante --> UC03
+Participante --> UC04
+Participante --> UC05
+Participante --> UC06
+Participante --> UC07
+Participante --> UC08
+Participante --> UC10
+
+note bottom of UC06
+  NENHUM dado pessoal é coletado:
+  vagas são ajustadas pelos organizadores
+  nos arquivos JSON antes de cada deploy.
+  Inscrição (se houver) é presencial ou
+  em ferramenta externa da organização.
+end note
+@enduml
