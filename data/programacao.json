@@ -1,0 +1,118 @@
+[
+  {
+    "dia": "22/09",
+    "sub": "Terça — Palestras",
+    "sessoes": [
+      {
+        "time": "14h00",
+        "dur": "até 17h00",
+        "tag": "Palestra",
+        "title": "Modernização do diagnóstico na agricultura: da química tradicional ao sensoriamento em robôs",
+        "who": "Tiago Rodrigues Tavares · CCARBON/USP",
+        "flag": ""
+      },
+      {
+        "time": "14h00",
+        "dur": "até 17h30",
+        "tag": "Palestra",
+        "title": "Produção e propagação de mudas de frutíferas",
+        "who": "Eva Gabriela Vargas Martínez & Gadiel Zilto Azevedo · FCAV/UNESP",
+        "flag": "em paralelo"
+      },
+      {
+        "time": "15h00",
+        "dur": "até 17h30",
+        "tag": "Palestra",
+        "title": "Diagnóstico em tempo real da textura do solo e nutrientes em folhas com sensor de fluorescência de raios X (XRF)",
+        "who": "Luiza Maria Affonso Lopes da Silva · UFRRJ",
+        "flag": "em paralelo"
+      },
+      {
+        "time": "19h00",
+        "dur": "até 20h30",
+        "tag": "Palestra",
+        "title": "Dupla Poda: uma inovação na Viticultura Brasileira",
+        "who": "Francisco José Domingues Neto · FCAV/UNESP",
+        "flag": ""
+      },
+      {
+        "time": "19h30",
+        "dur": "",
+        "tag": "Palestra",
+        "title": "Inteligência Artificial: mudanças no mercado de trabalho e na sociedade atual",
+        "who": "Carlos Henrique da Silva Santos · IFSP",
+        "flag": "sobrepõe Francisco"
+      },
+      {
+        "time": "21h30",
+        "dur": "até 22h30",
+        "tag": "Palestra",
+        "title": "Da colheita ao consumidor: Estratégias de pós-colheita e nanotecnologia",
+        "who": "Stefania Fernandes dos Santos · FCAV/UNESP",
+        "flag": ""
+      }
+    ]
+  },
+  {
+    "dia": "23/09",
+    "sub": "Quarta — Palestras & Oficinas",
+    "sessoes": [
+      {
+        "time": "09h30",
+        "dur": "até 12h00",
+        "tag": "Oficina",
+        "title": "Produção Orgânica e Multiplicação de Bioinsumos onfarm",
+        "who": "Maurílio Antônio de Melo Souza · Eng. Biossistemas",
+        "flag": "4 sessões às 09h30"
+      },
+      {
+        "time": "09h30",
+        "dur": "até 11h00",
+        "tag": "Oficina",
+        "title": "Amostragem de solo e mapas em grade na agricultura de precisão",
+        "who": "Fábio Veloso da Silva · IAGRO",
+        "flag": "4 sessões às 09h30"
+      },
+      {
+        "time": "09h30",
+        "dur": "até 12h00",
+        "tag": "Oficina",
+        "title": "Uso de Drones de pulverização na silvicultura e agricultura: Da Entrega Técnica à Eficiência Operacional",
+        "who": "Hamilton Takeda · Silvicultura",
+        "flag": "4 sessões às 09h30"
+      },
+      {
+        "time": "09h30",
+        "dur": "1h30",
+        "tag": "Palestra",
+        "title": "IA na Prática: do Prompt ao Design com ChatGPT e Canva",
+        "who": "Bruno Kortz · FATEC Itapetininga",
+        "flag": "4 sessões às 09h30"
+      },
+      {
+        "time": "14h00",
+        "dur": "até 16h00",
+        "tag": "Oficina",
+        "title": "Subprodutos da Indústria Láctea: Obtenção, Aproveitamento e Inovações no Desenvolvimento de Alimentos",
+        "who": "Mayara de Souza Queirós & Maria Cecília Enes Ribeiro · FATEC Capão Bonito",
+        "flag": "3 sessões às 14h"
+      },
+      {
+        "time": "14h00",
+        "dur": "até 16h00",
+        "tag": "Palestra",
+        "title": "Biossistemas",
+        "who": "Rubens Tabile · FZEA/USP",
+        "flag": "3 sessões às 14h"
+      },
+      {
+        "time": "14h00",
+        "dur": "até 15h30",
+        "tag": "Oficina",
+        "title": "Agentes Inteligentes",
+        "who": "Adriano Elias Daniel · FATEC Capão Bonito/Itapetininga",
+        "flag": "3 sessões às 14h"
+      }
+    ]
+  }
+]

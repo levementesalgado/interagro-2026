@@ -1,0 +1,179 @@
+[
+  {
+    "id": "D01",
+    "area": "Identidade visual",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Card individual para cada palestrante (padrão criado por Diego Guevara e aprovado)",
+    "fonte": "Maria Renata / Diego",
+    "status": "Aprovado"
+  },
+  {
+    "id": "D02",
+    "area": "Identidade visual",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Card único com todos os palestrantes juntos: apenas nome, instituição e título da palestra",
+    "fonte": "Maria Renata",
+    "status": "Aprovado"
+  },
+  {
+    "id": "D03",
+    "area": "Identidade visual",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Título da palestra em cada card individual (essencial para atrair público externo)",
+    "fonte": "Maria Renata",
+    "status": "Aprovado"
+  },
+  {
+    "id": "D04",
+    "area": "Identidade visual",
+    "prioridade": "Média",
+    "decisao_ou_requisito": "Tarja inferior nos cards para encaixe do logo dos patrocinadores",
+    "fonte": "Maria Renata",
+    "status": "Aprovado"
+  },
+  {
+    "id": "D05",
+    "area": "Identidade visual",
+    "prioridade": "Média",
+    "decisao_ou_requisito": "Substituir 'Dr.' por 'doutor' (por extenso)",
+    "fonte": "Maria Renata",
+    "status": "Aprovado"
+  },
+  {
+    "id": "D06",
+    "area": "Identidade visual",
+    "prioridade": "Média",
+    "decisao_ou_requisito": "Nomes menores nos cards, padrão: 'Prof. Adriano Daniel'",
+    "fonte": "Adriano Daniel",
+    "status": "Aprovado"
+  },
+  {
+    "id": "D07",
+    "area": "Identidade visual",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Incluir logos: FATEC, CPS e brasão",
+    "fonte": "Maria Renata",
+    "status": "Aprovado"
+  },
+  {
+    "id": "D08",
+    "area": "Identidade visual",
+    "prioridade": "Média",
+    "decisao_ou_requisito": "Proporção do card definida pelo time (1:1 / 4:5 / 16:9 vertical) - CORRIGIR qual foi escolhida",
+    "fonte": "Diego/Edil",
+    "status": "A definir em reunião"
+  },
+  {
+    "id": "D09",
+    "area": "Identidade visual",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Template editável (PowerPoint) para padronizar troca de fotos e dados dos palestrantes",
+    "fonte": "Edil",
+    "status": "Pronto (12/08)"
+  },
+  {
+    "id": "D10",
+    "area": "Material",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Fotos dos palestrantes serão baixadas do Lattes",
+    "fonte": "Maria Renata",
+    "status": "Em andamento"
+  },
+  {
+    "id": "D11",
+    "area": "Material",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Criar arte de divulgação no Instagram do evento (grupo deve decidir quem alimenta)",
+    "fonte": "Adriano Daniel",
+    "status": "A definir"
+  },
+  {
+    "id": "D12",
+    "area": "Conteúdo",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Documento com título da palestra, data e horário de cada palestrante (PDF recebido)",
+    "fonte": "Maria Renata",
+    "status": "Recebido (mídia)"
+  },
+  {
+    "id": "D13",
+    "area": "Site",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Site de divulgação E navegação no dia do evento (público externo e participantes)",
+    "fonte": "Cliente (vinberkuko)",
+    "status": "Não iniciado"
+  },
+  {
+    "id": "D14",
+    "area": "Dados",
+    "prioridade": "Média",
+    "decisao_ou_requisito": "E-mail da Stefania: stefania.fenandes@unesp.br — aparece igual no docx oficial, mas provável typo ('fernandes')",
+    "fonte": "Conversa + Dados palestrantes.docx",
+    "status": "Verificar"
+  },
+  {
+    "id": "D15",
+    "area": "Grade",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Conflito de horário em 23/09 14h-16h: palestra de Rubens Tabile e oficina de lácteos simultâneas",
+    "fonte": "Dados palestrantes.docx",
+    "status": "Resolver com a organização"
+  },
+  {
+    "id": "D16",
+    "area": "Grade",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Durações inconsistentes: Tiago 14h-17h com 1h registrada",
+    "fonte": " Luiza 15h-17h30 com 1h registrada",
+    "status": "Dados palestrantes.docx",
+    "null": [
+      "Confirmar horários reais"
+    ]
+  },
+  {
+    "id": "D17",
+    "area": "Grade",
+    "prioridade": "Média",
+    "decisao_ou_requisito": "Definir salas de todas as 8 sessões para publicar no site do dia",
+    "fonte": "A DEFINIR",
+    "status": "Pendente"
+  },
+  {
+    "id": "D18",
+    "area": "Grade",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Evento acontece em 22 e 23/09/2026 (antes era só 23/09 na conversa)",
+    "fonte": "Dados palestrantes.docx",
+    "status": "Confirmado"
+  },
+  {
+    "id": "D19",
+    "area": "Material",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "Fotos dos palestrantes: baixar do Lattes (Luiza e Tiago já têm apresentação com foto?)",
+    "fonte": "Maria Renata",
+    "status": "Em andamento"
+  },
+  {
+    "id": "D20",
+    "area": "Arquitetura",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "SITE 100% ESTÁTICO: sem banco de dados, sem backend e sem coleta de dados pessoais (coordenador não quer lidar com dados públicos). Conteúdo em JSON versionado no repositório",
+    "fonte": " atualização via edição de arquivo + deploy",
+    "status": "Coordenador (Adriano Daniel)",
+    "null": [
+      "Aprovado"
+    ]
+  },
+  {
+    "id": "D21",
+    "area": "Arquitetura",
+    "prioridade": "Alta",
+    "decisao_ou_requisito": "SEM formulários de inscrição: vagas de oficina publicadas como snapshot no JSON",
+    "fonte": " contato via WhatsApp/e-mail/presencial",
+    "status": "Coordenador (Adriano Daniel)",
+    "null": [
+      "Aprovado"
+    ]
+  }
+]

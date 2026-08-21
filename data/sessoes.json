@@ -1,0 +1,133 @@
+[
+  {
+    "id": "S01",
+    "dia": "22/09/2026",
+    "tipo": "Palestra",
+    "titulo": "Modernização do diagnóstico na agricultura: da química tradicional ao sensoriamento em robôs",
+    "palestrantes_ids": [
+      "P01"
+    ],
+    "palestrantes_txt": "P01 - Tiago Rodrigues Tavares",
+    "horario": "14h00-17h00",
+    "duracao_registrada": "1 hora (CONFERIR)",
+    "vagas": "livre",
+    "local": "A DEFINIR",
+    "observacoes": "Duração registrada (1h) não bate com intervalo (3h) - confirmar com a organização",
+    "status": "Confirmada"
+  },
+  {
+    "id": "S02",
+    "dia": "22/09/2026",
+    "tipo": "Palestra",
+    "titulo": "Produção e propagação de mudas de frutíferas",
+    "palestrantes_ids": [
+      "P04",
+      "P05"
+    ],
+    "palestrantes_txt": "P04 - Eva Gabriela Vargas Martínez; P05 - Gadiel Zilto Azevedo",
+    "horario": "14h00-17h30",
+    "duracao_registrada": "3h30",
+    "vagas": "30 pessoas",
+    "local": "A DEFINIR",
+    "observacoes": "Ocorre em paralelo com S01 (14h)",
+    "status": "Confirmada"
+  },
+  {
+    "id": "S03",
+    "dia": "22/09/2026",
+    "tipo": "Palestra",
+    "titulo": "Diagnóstico em tempo real da textura do solo e nutrientes em folhas com sensor de fluorescência de raios X (XRF)",
+    "palestrantes_ids": [
+      "P02",
+      "P01"
+    ],
+    "palestrantes_txt": "P02 - Luiza Maria Affonso Lopes da Silva; P01 - Tiago Rodrigues Tavares",
+    "horario": "15h00-17h30",
+    "duracao_registrada": "1 hora (CONFERIR)",
+    "vagas": "20 pessoas",
+    "local": "A DEFINIR",
+    "observacoes": "Duração registrada (1h) não bate com intervalo (2h30) - confirmar",
+    "status": "Confirmada"
+  },
+  {
+    "id": "S04",
+    "dia": "22/09/2026",
+    "tipo": "Palestra",
+    "titulo": "Dupla Poda: uma inovação na Viticultura Brasileira",
+    "palestrantes_ids": [
+      "P06"
+    ],
+    "palestrantes_txt": "P06 - Francisco José Domingues Neto",
+    "horario": "19h00-20h30",
+    "duracao_registrada": "1h30",
+    "vagas": "livre",
+    "local": "A DEFINIR",
+    "observacoes": "",
+    "status": "Confirmada"
+  },
+  {
+    "id": "S05",
+    "dia": "22/09/2026",
+    "tipo": "Palestra",
+    "titulo": "Da colheita ao consumidor: Estratégias de pós-colheita e nanotecnologia",
+    "palestrantes_ids": [
+      "P03"
+    ],
+    "palestrantes_txt": "P03 - Stefania Fernandes dos Santos",
+    "horario": "21h30-22h30",
+    "duracao_registrada": "1 hora",
+    "vagas": "livre",
+    "local": "A DEFINIR",
+    "observacoes": "Sessão noturna",
+    "status": "Confirmada"
+  },
+  {
+    "id": "S06",
+    "dia": "23/09/2026",
+    "tipo": "Oficina",
+    "titulo": "Produção Orgânica e Multiplicação de Bioinsumos onfarm",
+    "palestrantes_ids": [
+      "P07"
+    ],
+    "palestrantes_txt": "P07 - Maurílio Antônio de Melo Souza",
+    "horario": "09h30-12h00",
+    "duracao_registrada": "2h30",
+    "vagas": "20 pessoas",
+    "local": "A DEFINIR",
+    "observacoes": "",
+    "status": "Confirmada"
+  },
+  {
+    "id": "S07",
+    "dia": "23/09/2026",
+    "tipo": "Palestra",
+    "titulo": "Biossistemas",
+    "palestrantes_ids": [
+      "P08"
+    ],
+    "palestrantes_txt": "P08 - Rubens Tabile",
+    "horario": "14h00-16h00",
+    "duracao_registrada": "2 horas",
+    "vagas": "20 pessoas",
+    "local": "A DEFINIR",
+    "observacoes": "CONFLITO: mesmo horário da oficina S08 (14h às 16h) - resolver com a organização",
+    "status": "Confirmada (estrutura)"
+  },
+  {
+    "id": "S08",
+    "dia": "23/09/2026",
+    "tipo": "Oficina",
+    "titulo": "Subprodutos da Indústria Láctea: Obtenção, Aproveitamento e Inovações no Desenvolvimento de Alimentos",
+    "palestrantes_ids": [
+      "P09",
+      "P10"
+    ],
+    "palestrantes_txt": "P09 - Mayara de Souza Queirós; P10 - Maria Cecília Enes Ribeiro",
+    "horario": "14h00-16h00",
+    "duracao_registrada": "2 horas",
+    "vagas": "20 pessoas",
+    "local": "A DEFINIR",
+    "observacoes": "CONFLITO: mesmo horário da palestra S07 (14h às 16h) - resolver com a organização",
+    "status": "Confirmada"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "nome": "InterAgro 2026",
+  "subtitulo": "Agro + Tecnologia",
+  "datas": [
+    "22/09/2026",
+    "23/09/2026"
+  ],
+  "local": "FATEC Capão Bonito",
+  "descricao": "Evento de divulgação e navegação no dia, com palestras e oficinas nas áreas de agronegócio e tecnologia. Realização FATEC Capão Bonito (curso SI) com FCAV/UNESP, USP, UFRRJ e Instituto Folio.",
+  "contatos": {
+    "email": "A DEFINIR",
+    "whatsapp": "A DEFINIR",
+    "instagram": "A DEFINIR"
+  },
+  "logos": [
+    "FATEC",
+    "CPS",
+    "Brasão"
+  ],
+  "modo_evento": false
+}

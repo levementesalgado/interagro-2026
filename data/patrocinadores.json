@@ -1,0 +1,40 @@
+{
+  "Realização / Instituições": [
+    {
+      "src": "assets/img/patrocinadores/logo-cpf-fatec.jpg",
+      "alt": "FATEC Capão Bonito — Centro Paula Souza"
+    }
+  ],
+  "Patrocinadores": [
+    {
+      "src": "assets/img/patrocinadores/PATROCINADOR-suzano.jpg",
+      "alt": "Suzano"
+    },
+    {
+      "src": "assets/img/patrocinadores/PATROCINADOR-minercal.jpg",
+      "alt": "Minercal"
+    },
+    {
+      "src": "assets/img/patrocinadores/PATROCINADOR-bar-avenida.jpg",
+      "alt": "Bar Avenida"
+    },
+    {
+      "src": "assets/img/patrocinadores/PATROCINADOR-grupo-wls.jpg",
+      "alt": "Grupo WLS"
+    }
+  ],
+  "Apoio": [
+    {
+      "src": "assets/img/patrocinadores/APOIADOR-folio.jpg",
+      "alt": "Instituto Fólio"
+    },
+    {
+      "src": "assets/img/patrocinadores/APOIADOR-instituto-refloresta.jpg",
+      "alt": "Instituto Refloresta"
+    },
+    {
+      "src": "assets/img/patrocinadores/APOIADOR-na-beira-da-cerca.jpg",
+      "alt": "Na Beira da Cerca"
+    }
+  ]
+}

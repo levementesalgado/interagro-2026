@@ -1,0 +1,50 @@
+[
+  {
+    "id": "E01",
+    "nome": "Adriano Daniel",
+    "papel_no_grupo": "Coordenador do curso SI - FATEC Capão Bonito (criador da sala/grupo)",
+    "papel_no_evento": "Organizador / decisões",
+    "observacoes": "Decisões finais (texto dos cards, padrão 'Prof.')",
+    "email": "A DEFINIR"
+  },
+  {
+    "id": "E02",
+    "nome": "Maria Renata",
+    "papel_no_grupo": "Organizadora (material dos palestrantes)",
+    "papel_no_evento": "Organizadora / conteúdo",
+    "observacoes": "Envia materiais, biografias, logos e pedidos de alteração de arte",
+    "email": "A DEFINIR"
+  },
+  {
+    "id": "E03",
+    "nome": "Diego Guevara",
+    "papel_no_grupo": "Criador do grupo",
+    "papel_no_evento": "Arte / cards dos palestrantes",
+    "observacoes": "Criou os cards dos palestrantes",
+    "email": " aprovados por Maria Renata"
+  },
+  {
+    "id": "E04",
+    "nome": "Edil Queiroz de Araújo",
+    "papel_no_grupo": "Sistemas Inteligentes",
+    "papel_no_evento": "Designer / template editável",
+    "observacoes": "Converteu o layout em PowerPoint (PPTX) editável para padronizar trocas de fotos e dados",
+    "email": "A DEFINIR"
+  },
+  {
+    "id": "E05",
+    "nome": "Gustavo Muzel",
+    "papel_no_grupo": "Sistemas Inteligentes",
+    "papel_no_evento": "A DEFINIR",
+    "observacoes": "Participante do grupo",
+    "email": "A DEFINIR"
+  },
+  {
+    "id": "E06",
+    "nome": "Pedrão Cutrale",
+    "papel_no_grupo": "Sistemas Inteligentes",
+    "papel_no_evento": "A DEFINIR",
+    "observacoes": "Participante do grupo",
+    "email": "A DEFINIR"
+  }
+]
