@@ -344,7 +344,7 @@ h2.section-title {
 .footer .cols { display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between; }
 /* Logos FATEC / CPS / brasão (design system: tarja obrigatória) */
 .footer-logos { display: flex; flex-wrap: wrap; gap: 20px; align-items: center; margin-bottom: 14px; }
-.footer-logos img { height: 44px; width: auto; filter: grayscale(100%); opacity: .85; }
+.footer-logos img { height: 90px; width: auto; filter: grayscale(100%); opacity: .85; }
 .footer-logos img:hover { filter: grayscale(0); opacity: 1; }
 .footer-credit { font-size: 13px; color: var(--ink-faint); margin-top: 6px; }
 .footer-credit strong { color: var(--ink-soft); font-weight: 600; }
