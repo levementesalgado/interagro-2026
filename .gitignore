@@ -1,0 +1,19 @@
+# Raw WhatsApp export (21 MB zip + media). Logos already copied into
+# assets/img/patrocinadores/. Keep the source out of the repo.
+media_raw/
+Conversa do WhatsApp com InterAgro Sistemas.zip
+
+# Documentos de planejamento mantidos LOCALMENTE (não publicados no repo).
+# As pastas ficam no disco; só não entram no git.
+01_dados/
+02_descricoes/
+04_ux_ui/
+
+# Scripts e docs auxiliares (mantidos localmente, não publicados)
+scripts/
+PLANEJAMENTO.md
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
