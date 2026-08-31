@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650"
+     role="img" aria-label="Bloco E">
+<title>Bloco E</title>
+<rect width="1000" height="650" fill="white"/>
+<style>
+.room{fill:white;stroke:#555;stroke-width:3;stroke-linejoin:round;cursor:pointer}
+.room:hover{fill:#f2f2f2}
+.utility{fill:white;stroke:#555;stroke-width:3;cursor:pointer}
+.corridor{fill:white;stroke:#555;stroke-width:3}
+.label{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#333;text-anchor:middle;dominant-baseline:middle;pointer-events:none}
+.small{font-size:14px} .tiny{font-size:11px}
+</style>
+<rect class="corridor" x="165" y="290" width="755" height="95"/><g id="sala-aula-02" data-area="sala-aula-02" data-name="SALA DE AULA 02" tabindex="0" aria-label="SALA DE AULA 02">
+<polygon class="room" points="180,100 390,100 390,285 180,285"/>
+<text class="label" x="285" y="190">SALA DE AULA 02</text></g><g id="sala-aula-04" data-area="sala-aula-04" data-name="SALA DE AULA 04" tabindex="0" aria-label="SALA DE AULA 04">
+<polygon class="room" points="395,100 610,100 610,285 395,285"/>
+<text class="label" x="502" y="190">SALA DE AULA 04</text></g><g id="banheiro-fem" data-area="banheiro-fem" data-name="BANHEIRO FEMININO" tabindex="0" aria-label="BANHEIRO FEMININO">
+<polygon class="utility" points="615,100 685,100 685,285 615,285"/>
+<text class="label tiny" x="650" y="190">BANHEIRO FEMININO</text></g><g id="sala-aula-06" data-area="sala-aula-06" data-name="SALA DE AULA 06" tabindex="0" aria-label="SALA DE AULA 06">
+<polygon class="room" points="690,100 900,100 900,285 690,285"/>
+<text class="label" x="795" y="190">SALA DE AULA 06</text></g><g id="sala-aula-01" data-area="sala-aula-01" data-name="SALA DE AULA 01" tabindex="0" aria-label="SALA DE AULA 01">
+<polygon class="room" points="180,390 390,390 390,600 180,600"/>
+<text class="label" x="285" y="495">SALA DE AULA 01</text></g><g id="sala-aula-03" data-area="sala-aula-03" data-name="SALA DE AULA 03" tabindex="0" aria-label="SALA DE AULA 03">
+<polygon class="room" points="395,390 610,390 610,600 395,600"/>
+<text class="label" x="502" y="495">SALA DE AULA 03</text></g><g id="banheiro-masc" data-area="banheiro-masc" data-name="BANHEIRO MASCULINO" tabindex="0" aria-label="BANHEIRO MASCULINO">
+<polygon class="utility" points="615,390 685,390 685,600 615,600"/>
+<text class="label tiny" x="650" y="495">BANHEIRO MASCULINO</text></g><g id="sala-aula-05" data-area="sala-aula-05" data-name="SALA DE AULA 05 — CURSO ANUAL SIST. INTEL." tabindex="0" aria-label="SALA DE AULA 05 — CURSO ANUAL SIST. INTEL.">
+<polygon class="room" points="690,390 900,390 900,600 690,600"/>
+<text class="label tiny" x="795" y="490">SALA DE AULA 05 — CURSO ANUAL SIST. INTEL.</text></g><g id="cantina" data-area="cantina" data-name="CANTINA" tabindex="0" aria-label="CANTINA">
+<polygon class="room" points="45,210 100,165 155,165 190,210 155,255 100,255"/>
+<text class="label small" x="118" y="210">CANTINA</text></g><g id="copa" data-area="copa" data-name="COPA" tabindex="0" aria-label="COPA">
+<polygon class="utility" points="900,290 955,290 955,385 900,385"/>
+<text class="label small" x="928" y="338">COPA</text></g><text class="label small" x="540" y="338">CORREDOR</text><text class="label tiny" x="530" y="625">RAMPA / ACESSO</text>
+</svg>

@@ -9,6 +9,10 @@
         "tag": "Palestra",
         "title": "Modernização do diagnóstico na agricultura: da química tradicional ao sensoriamento em robôs",
         "who": "Tiago Rodrigues Tavares · CCARBON/USP",
+        "sala": "auditorio",
+        "salaNome": "Auditório",
+        "bloco": "D-superior",
+        "vagas": "livre",
         "flag": ""
       },
       {
@@ -17,6 +21,10 @@
         "tag": "Palestra",
         "title": "Produção e propagação de mudas de frutíferas",
         "who": "Eva Gabriela Vargas Martínez & Gadiel Zilto Azevedo · FCAV/UNESP",
+        "sala": "sala-aula-01",
+        "salaNome": "Sala de Aula 01 — 4º Sem. Silvicultura",
+        "bloco": "C",
+        "vagas": "30 pessoas",
         "flag": "em paralelo"
       },
       {
@@ -25,6 +33,10 @@
         "tag": "Palestra",
         "title": "Diagnóstico em tempo real da textura do solo e nutrientes em folhas com sensor de fluorescência de raios X (XRF)",
         "who": "Luiza Maria Affonso Lopes da Silva · UFRRJ",
+        "sala": "lab-quimica",
+        "salaNome": "Laboratório de Química",
+        "bloco": "D-superior",
+        "vagas": "20 pessoas",
         "flag": "em paralelo"
       },
       {
@@ -33,6 +45,10 @@
         "tag": "Palestra",
         "title": "Dupla Poda: uma inovação na Viticultura Brasileira",
         "who": "Francisco José Domingues Neto · FCAV/UNESP",
+        "sala": "sala-aula",
+        "salaNome": "Sala de Aula",
+        "bloco": "A",
+        "vagas": "livre",
         "flag": ""
       },
       {
@@ -41,6 +57,10 @@
         "tag": "Palestra",
         "title": "Inteligência Artificial: mudanças no mercado de trabalho e na sociedade atual",
         "who": "Carlos Henrique da Silva Santos · IFSP",
+        "sala": "sala-aula-02",
+        "salaNome": "Sala de Aula 02 — 5º Sem. Silvicultura",
+        "bloco": "C",
+        "vagas": "livre",
         "flag": "sobrepõe Francisco"
       },
       {
@@ -49,6 +69,10 @@
         "tag": "Palestra",
         "title": "Da colheita ao consumidor: Estratégias de pós-colheita e nanotecnologia",
         "who": "Stefania Fernandes dos Santos · FCAV/UNESP",
+        "sala": "sala-conv",
+        "salaNome": "Sala de Convivência",
+        "bloco": "A",
+        "vagas": "livre",
         "flag": ""
       }
     ]
@@ -63,6 +87,10 @@
         "tag": "Oficina",
         "title": "Produção Orgânica e Multiplicação de Bioinsumos onfarm",
         "who": "Maurílio Antônio de Melo Souza · Eng. Biossistemas",
+        "sala": "lab-biotecnologia",
+        "salaNome": "Laboratório de Biotecnologia",
+        "bloco": "D-inferior",
+        "vagas": "20 pessoas",
         "flag": "4 sessões às 09h30"
       },
       {
@@ -71,6 +99,10 @@
         "tag": "Oficina",
         "title": "Amostragem de solo e mapas em grade na agricultura de precisão",
         "who": "Fábio Veloso da Silva · IAGRO",
+        "sala": "sala-aula-02",
+        "salaNome": "Sala de Aula 02 — 5º Sem. Silvicultura",
+        "bloco": "C",
+        "vagas": "25 vagas",
         "flag": "4 sessões às 09h30"
       },
       {
@@ -79,6 +111,10 @@
         "tag": "Oficina",
         "title": "Uso de Drones de pulverização na silvicultura e agricultura: Da Entrega Técnica à Eficiência Operacional",
         "who": "Hamilton Takeda · Silvicultura",
+        "sala": "sala-maker",
+        "salaNome": "Sala Maker",
+        "bloco": "D-inferior",
+        "vagas": "25 pessoas",
         "flag": "4 sessões às 09h30"
       },
       {
@@ -87,6 +123,10 @@
         "tag": "Palestra",
         "title": "IA na Prática: do Prompt ao Design com ChatGPT e Canva",
         "who": "Bruno Kortz · FATEC Itapetininga",
+        "sala": "lab-informatica",
+        "salaNome": "Laboratório de Informática",
+        "bloco": "D-superior",
+        "vagas": "20 pessoas",
         "flag": "4 sessões às 09h30"
       },
       {
@@ -95,6 +135,10 @@
         "tag": "Oficina",
         "title": "Subprodutos da Indústria Láctea: Obtenção, Aproveitamento e Inovações no Desenvolvimento de Alimentos",
         "who": "Mayara de Souza Queirós & Maria Cecília Enes Ribeiro · FATEC Capão Bonito",
+        "sala": "lab-alimentos",
+        "salaNome": "Laboratório de Alimentos",
+        "bloco": "A",
+        "vagas": "20 pessoas",
         "flag": "3 sessões às 14h"
       },
       {
@@ -103,6 +147,10 @@
         "tag": "Palestra",
         "title": "Biossistemas",
         "who": "Rubens Tabile · FZEA/USP",
+        "sala": "sala-aula-03",
+        "salaNome": "Sala de Aula 03 — 6º Sem. Silvicultura",
+        "bloco": "C",
+        "vagas": "20 pessoas",
         "flag": "3 sessões às 14h"
       },
       {
@@ -111,6 +159,10 @@
         "tag": "Oficina",
         "title": "Agentes Inteligentes",
         "who": "Adriano Elias Daniel · FATEC Capão Bonito/Itapetininga",
+        "sala": "sala-ti",
+        "salaNome": "Sala T.I.",
+        "bloco": "C",
+        "vagas": "20 pessoas",
         "flag": "3 sessões às 14h"
       }
     ]

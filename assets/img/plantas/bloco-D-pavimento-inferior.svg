@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620"
+     role="img" aria-label="Bloco D — Pavimento Inferior">
+<title>Bloco D — Pavimento Inferior</title>
+<rect width="980" height="620" fill="white"/>
+<style>
+.room{fill:white;stroke:#555;stroke-width:3;stroke-linejoin:round;cursor:pointer}
+.room:hover{fill:#f2f2f2}
+.utility{fill:white;stroke:#555;stroke-width:3;cursor:pointer}
+.corridor{fill:white;stroke:#555;stroke-width:3}
+.label{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#333;text-anchor:middle;dominant-baseline:middle;pointer-events:none}
+.small{font-size:14px} .tiny{font-size:11px}
+</style>
+<rect class="corridor" x="65" y="280" width="640" height="55"/><rect class="corridor" x="350" y="335" width="355" height="95"/><g id="lab-biotecnologia" data-area="lab-biotecnologia" data-name="LABORATÓRIO DE BIOTECNOLOGIA" tabindex="0" aria-label="LABORATÓRIO DE BIOTECNOLOGIA">
+<polygon class="room" points="80,110 360,110 360,270 80,270"/>
+<text class="label small" x="220" y="185">LABORATÓRIO DE BIOTECNOLOGIA</text></g><g id="banheiro-01" data-area="banheiro-01" data-name="BANHEIRO" tabindex="0" aria-label="BANHEIRO">
+<polygon class="utility" points="375,145 425,145 425,270 375,270"/>
+<text class="label tiny" x="400" y="205">BANHEIRO</text></g><g id="banheiro-02" data-area="banheiro-02" data-name="BANHEIRO" tabindex="0" aria-label="BANHEIRO">
+<polygon class="utility" points="430,145 480,145 480,270 430,270"/>
+<text class="label tiny" x="455" y="205">BANHEIRO</text></g><g id="lab-sementes" data-area="lab-sementes" data-name="LABORATÓRIO DE SEMENTES" tabindex="0" aria-label="LABORATÓRIO DE SEMENTES">
+<polygon class="room" points="490,110 700,110 700,270 490,270"/>
+<text class="label small" x="595" y="185">LABORATÓRIO DE SEMENTES</text></g><g id="coordenacao-cursos" data-area="coordenacao-cursos" data-name="COORDENAÇÃO DE CURSOS" tabindex="0" aria-label="COORDENAÇÃO DE CURSOS">
+<polygon class="room" points="400,340 560,340 560,425 400,425"/>
+<text class="label tiny" x="480" y="385">COORDENAÇÃO DE CURSOS</text></g><g id="sala-professores" data-area="sala-professores" data-name="SALA DOS PROFESSORES" tabindex="0" aria-label="SALA DOS PROFESSORES">
+<polygon class="room" points="565,340 700,340 700,425 565,425"/>
+<text class="label tiny" x="632" y="385">SALA DOS PROFESSORES</text></g><g id="sala-maker" data-area="sala-maker" data-name="SALA MAKER" tabindex="0" aria-label="SALA MAKER">
+<polygon class="room" points="565,430 700,430 700,570 565,570"/>
+<text class="label small" x="632" y="500">SALA MAKER</text></g><g id="biblioteca" data-area="biblioteca" data-name="BIBLIOTECA" tabindex="0" aria-label="BIBLIOTECA">
+<polygon class="room" points="705,340 920,340 920,500 705,500"/>
+<text class="label" x="812" y="420">BIBLIOTECA</text></g><g id="deck-madeira" data-area="deck-madeira" data-name="DECK DE MADEIRA" tabindex="0" aria-label="DECK DE MADEIRA">
+<polygon class="utility" points="710,245 865,245 865,335 710,335"/>
+<text class="label small" x="788" y="290">DECK DE MADEIRA</text></g><text class="label small" x="350" y="307">CORREDOR LATERAL</text><text class="label tiny" x="850" y="300">RAMPA</text>
+</svg>

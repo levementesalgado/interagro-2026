@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 670"
+     role="img" aria-label="Bloco D — Pavimento Superior">
+<title>Bloco D — Pavimento Superior</title>
+<rect width="1000" height="670" fill="white"/>
+<style>
+.room{fill:white;stroke:#555;stroke-width:3;stroke-linejoin:round;cursor:pointer}
+.room:hover{fill:#f2f2f2}
+.utility{fill:white;stroke:#555;stroke-width:3;cursor:pointer}
+.corridor{fill:white;stroke:#555;stroke-width:3}
+.label{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#333;text-anchor:middle;dominant-baseline:middle;pointer-events:none}
+.small{font-size:14px} .tiny{font-size:11px}
+</style>
+<rect class="corridor" x="70" y="250" width="760" height="55"/><rect class="corridor" x="350" y="305" width="480" height="45"/><g id="lab-microscopia" data-area="lab-microscopia" data-name="LABORATÓRIO DE MICROSCOPIA" tabindex="0" aria-label="LABORATÓRIO DE MICROSCOPIA">
+<polygon class="room" points="80,105 300,105 300,235 80,235"/>
+<text class="label small" x="190" y="170">LABORATÓRIO DE MICROSCOPIA</text></g><g id="lab-quimica" data-area="lab-quimica" data-name="LABORATÓRIO DE QUÍMICA" tabindex="0" aria-label="LABORATÓRIO DE QUÍMICA">
+<polygon class="room" points="305,105 520,105 520,235 305,235"/>
+<text class="label small" x="412" y="170">LABORATÓRIO DE QUÍMICA</text></g><g id="banheiro-01" data-area="banheiro-01" data-name="BANHEIRO" tabindex="0" aria-label="BANHEIRO">
+<polygon class="utility" points="525,105 575,105 575,235 525,235"/>
+<text class="label tiny" x="550" y="170">BANHEIRO</text></g><g id="banheiro-02" data-area="banheiro-02" data-name="BANHEIRO" tabindex="0" aria-label="BANHEIRO">
+<polygon class="utility" points="580,105 630,105 630,235 580,235"/>
+<text class="label tiny" x="605" y="170">BANHEIRO</text></g><g id="lab-botanica" data-area="lab-botanica" data-name="LABORATÓRIO DE BOTÂNICA" tabindex="0" aria-label="LABORATÓRIO DE BOTÂNICA">
+<polygon class="room" points="635,105 820,105 820,235 635,235"/>
+<text class="label small" x="727" y="170">LABORATÓRIO DE BOTÂNICA</text></g><g id="secretaria-01" data-area="secretaria-01" data-name="SECRETARIA" tabindex="0" aria-label="SECRETARIA">
+<polygon class="room" points="390,330 480,330 480,455 390,455"/>
+<text class="label tiny" x="435" y="415">SECRETARIA</text></g><g id="secretaria-02" data-area="secretaria-02" data-name="SECRETARIA" tabindex="0" aria-label="SECRETARIA">
+<polygon class="room" points="485,330 575,330 575,455 485,455"/>
+<text class="label tiny" x="530" y="415">SECRETARIA</text></g><g id="auditorio" data-area="auditorio" data-name="AUDITÓRIO" tabindex="0" aria-label="AUDITÓRIO">
+<polygon class="room" points="575,315 790,315 790,620 575,620"/>
+<text class="label" x="682" y="475">AUDITÓRIO</text></g><g id="lab-informatica" data-area="lab-informatica" data-name="LABORATÓRIO DE INFORMÁTICA" tabindex="0" aria-label="LABORATÓRIO DE INFORMÁTICA">
+<polygon class="room" points="815,335 955,335 955,520 815,520"/>
+<text class="label small" x="885" y="425">LABORATÓRIO DE INFORMÁTICA</text></g><text class="label small" x="450" y="278">CORREDOR / RAMPA</text><text class="label tiny" x="725" y="285">DECK DE MADEIRA</text><text class="label tiny" x="885" y="550">ENTRADA PRINCIPAL</text>
+</svg>

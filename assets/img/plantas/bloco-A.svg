@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 650"
+     role="img" aria-label="Bloco A">
+<title>Bloco A</title>
+<rect width="960" height="650" fill="white"/>
+<style>
+.room{fill:white;stroke:#555;stroke-width:3;stroke-linejoin:round;cursor:pointer}
+.room:hover{fill:#f2f2f2}
+.utility{fill:white;stroke:#555;stroke-width:3;cursor:pointer}
+.corridor{fill:white;stroke:#555;stroke-width:3}
+.label{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#333;text-anchor:middle;dominant-baseline:middle;pointer-events:none}
+.small{font-size:14px} .tiny{font-size:11px}
+</style>
+<g id="sala-vest" data-area="sala-vest" data-name="SALA DE VEST." tabindex="0" aria-label="SALA DE VEST.">
+<polygon class="room" points="120,100 245,100 245,205 120,205"/>
+<text class="label small" x="182" y="155">SALA DE VEST.</text></g><g id="apoio-1" data-area="apoio-1" data-name="APOIO / SALA" tabindex="0" aria-label="APOIO / SALA">
+<polygon class="room" points="120,210 245,210 245,330 120,330"/>
+<text class="label small" x="182" y="270">APOIO / SALA</text></g><g id="sala-apoio-central" data-area="sala-apoio-central" data-name="SALA / APOIO" tabindex="0" aria-label="SALA / APOIO">
+<polygon class="room" points="255,100 390,100 390,330 255,330"/>
+<text class="label small" x="322" y="215">SALA / APOIO</text></g><g id="sala-apoio-lateral" data-area="sala-apoio-lateral" data-name="SALA / APOIO" tabindex="0" aria-label="SALA / APOIO">
+<polygon class="room" points="400,235 535,235 535,330 400,330"/>
+<text class="label small" x="468" y="282">SALA / APOIO</text></g><g id="lab-alimentos" data-area="lab-alimentos" data-name="LABORATÓRIO DE ALIMENTOS" tabindex="0" aria-label="LABORATÓRIO DE ALIMENTOS">
+<polygon class="room" points="120,335 395,335 395,590 120,590"/>
+<text class="label small" x="258" y="465">LABORATÓRIO DE ALIMENTOS</text></g><g id="sala-aula" data-area="sala-aula" data-name="SALA DE AULA" tabindex="0" aria-label="SALA DE AULA">
+<polygon class="room" points="405,390 575,390 575,590 405,590"/>
+<text class="label" x="490" y="490">SALA DE AULA</text></g><g id="sala-conv" data-area="sala-conv" data-name="SALA DE CONV." tabindex="0" aria-label="SALA DE CONV.">
+<polygon class="room" points="585,335 700,335 700,590 585,590"/>
+<text class="label small" x="642" y="470">SALA DE CONV.</text></g><g id="estoque" data-area="estoque" data-name="ESTOQUE" tabindex="0" aria-label="ESTOQUE">
+<polygon class="room" points="720,100 900,100 900,205 720,205"/>
+<text class="label small" x="810" y="155">ESTOQUE</text></g><g id="banheiro-01" data-area="banheiro-01" data-name="BANHEIRO" tabindex="0" aria-label="BANHEIRO">
+<polygon class="room" points="720,210 900,210 900,365 720,365"/>
+<text class="label" x="810" y="288">BANHEIRO</text></g><g id="banheiro-02" data-area="banheiro-02" data-name="BANHEIRO" tabindex="0" aria-label="BANHEIRO">
+<polygon class="room" points="720,370 900,370 900,590 720,590"/>
+<text class="label" x="810" y="480">BANHEIRO</text></g><rect class="corridor" x="110" y="330" width="610" height="55"/><text class="label small" x="415" y="357">CORREDOR</text>
+</svg>

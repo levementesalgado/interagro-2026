@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620"
+     role="img" aria-label="Bloco C">
+<title>Bloco C</title>
+<rect width="980" height="620" fill="white"/>
+<style>
+.room{fill:white;stroke:#555;stroke-width:3;stroke-linejoin:round;cursor:pointer}
+.room:hover{fill:#f2f2f2}
+.utility{fill:white;stroke:#555;stroke-width:3;cursor:pointer}
+.corridor{fill:white;stroke:#555;stroke-width:3}
+.label{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#333;text-anchor:middle;dominant-baseline:middle;pointer-events:none}
+.small{font-size:14px} .tiny{font-size:11px}
+</style>
+<rect class="corridor" x="80" y="235" width="820" height="100"/><g id="sala-ti" data-area="sala-ti" data-name="SALA T.I." tabindex="0" aria-label="SALA T.I.">
+<polygon class="room" points="80,105 350,105 350,235 80,235"/>
+<text class="label" x="215" y="170">SALA T.I.</text></g><g id="sala-aula-01" data-area="sala-aula-01" data-name="SALA DE AULA 01 — 4º SEM SILV" tabindex="0" aria-label="SALA DE AULA 01 — 4º SEM SILV">
+<polygon class="room" points="80,340 350,340 350,545 80,545"/>
+<text class="label small" x="215" y="440">SALA DE AULA 01 — 4º SEM SILV</text></g><g id="sala-aula-02" data-area="sala-aula-02" data-name="SALA DE AULA 02 — 5º SEM SILV" tabindex="0" aria-label="SALA DE AULA 02 — 5º SEM SILV">
+<polygon class="room" points="365,105 620,105 620,330 365,330"/>
+<text class="label small" x="492" y="220">SALA DE AULA 02 — 5º SEM SILV</text></g><g id="sala-aula-03" data-area="sala-aula-03" data-name="SALA DE AULA 03 — 6º SEM SILV" tabindex="0" aria-label="SALA DE AULA 03 — 6º SEM SILV">
+<polygon class="room" points="635,105 900,105 900,330 635,330"/>
+<text class="label small" x="767" y="220">SALA DE AULA 03 — 6º SEM SILV</text></g><g id="coordenacao-gestao-emp" data-area="coordenacao-gestao-emp" data-name="COORDENAÇÃO / GESTÃO EMP. / EMPRESA JR" tabindex="0" aria-label="COORDENAÇÃO / GESTÃO EMP. / EMPRESA JR">
+<polygon class="room" points="635,340 900,340 900,545 635,545"/>
+<text class="label tiny" x="767" y="440">COORDENAÇÃO / GESTÃO EMP. / EMPRESA JR</text></g><text class="label small" x="490" y="285">CORREDOR</text>
+</svg>
