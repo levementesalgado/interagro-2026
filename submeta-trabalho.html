@@ -3,8 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Navegação — InterAgro 2026</title>
+<title>Mapa do Campus — InterAgro 2026</title>
 <link rel="stylesheet" href="assets/css/base.css">
+<style>
+.mapa-bloco{margin-bottom:32px}
+.mapa-bloco h3{margin-bottom:8px}
+.mapa-bloco svg{width:100%;max-width:700px;border:1px solid #ddd;border-radius:8px}
+.mapa-legend{margin-top:24px}
+.mapa-legend dt{font-weight:700;margin-top:12px}
+.mapa-legend dd{margin:0 0 0 16px;color:#555}
+.room[data-ativa="true"]{fill:#e8f5e9;stroke:#2e7d32;stroke-width:4}
+.room[data-ativa="true"]:hover{fill:#c8e6c9}
+</style>
 </head>
 <body>
 <header class="topbar">
@@ -18,18 +28,40 @@
 <main class="wrap">
 
 <section class="section" style="padding-top:40px">
-  <h2 class="section-title">Navegação do Site</h2>
-  <div class="prose">
-    <p>Escolha uma das páginas abaixo para navegar pelo site do InterAgro 2026.</p>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px">
-      <a href="programacao.html" class="btn" style="text-align:center">Programação</a>
-      <a href="palestrantes.html" class="btn" style="text-align:center">Palestrantes</a>
-      <a href="oficinas.html" class="btn" style="text-align:center">Oficinas</a>
-      <a href="patrocinadores.html" class="btn" style="text-align:center">Apoio</a>
-      <a href="contato.html" class="btn" style="text-align:center">Contato</a>
-    </div>
-  </div>
+  <h2 class="section-title">Mapa do Campus</h2>
+  <p class="prose">Clique em uma sala para ver a atividade programada. Salas com eventos estão destacadas em verde.</p>
 </section>
+
+<section class="section">
+  <h3>Bloco A</h3>
+  <div class="mapa-bloco" id="bloco-a"></div>
+</section>
+
+<section class="section">
+  <h3>Bloco C</h3>
+  <div class="mapa-bloco" id="bloco-c"></div>
+</section>
+
+<section class="section">
+  <h3>Bloco D — Pavimento Inferior</h3>
+  <div class="mapa-bloco" id="bloco-d-inf"></div>
+</section>
+
+<section class="section">
+  <h3>Bloco D — Pavimento Superior</h3>
+  <div class="mapa-bloco" id="bloco-d-sup"></div>
+</section>
+
+<section class="section">
+  <h3>Bloco E</h3>
+  <div class="mapa-bloco" id="bloco-e"></div>
+</section>
+
+<section class="section">
+  <h3>Legenda de Atividades</h3>
+  <dl class="prose mapa-legend" id="legend"></dl>
+</section>
+
 </main>
 <footer class="footer">
   <div class="wrap">
@@ -50,5 +82,88 @@
     </p>
   </div>
 </footer>
+
+<script>
+const salas = {
+  "22/09": [
+    {sala:"auditorio",bloco:"D-superior",title:"Modernização do diagnóstico na agricultura",who:"Tiago R. Tavares · CCARBON/USP",time:"14h–17h"},
+    {sala:"sala-aula-01",bloco:"C",title:"Produção e propagação de mudas de frutíferas",who:"Eva G. Vargas & Gadiel Z. Azevedo · FCAV/UNESP",time:"14h–17h30"},
+    {sala:"lab-quimica",bloco:"D-superior",title:"Diagnóstico em tempo real — XRF",who:"Luiza M. A. Lopes da Silva · UFRRJ",time:"15h–17h30"},
+    {sala:"sala-aula",bloco:"A",title:"Dupla Poda: Viticultura Brasileira",who:"Francisco J. Domingues Neto · FCAV/UNESP",time:"19h–20h30"},
+    {sala:"sala-aula-02",bloco:"C",title:"Inteligência Artificial: mercado de trabalho",who:"Carlos H. da Silva Santos · IFSP",time:"19h30"},
+    {sala:"sala-conv",bloco:"A",title:"Pós-colheita e nanotecnologia",who:"Stefania F. dos Santos · FCAV/UNESP",time:"21h30–22h30"}
+  ],
+  "23/09": [
+    {sala:"lab-biotecnologia",bloco:"D-inferior",title:"Produção Orgânica e Bioinsumos onfarm",who:"Maurílio A. de Melo Souza · Eng. Biossistemas",time:"09h30–12h"},
+    {sala:"sala-aula-02",bloco:"C",title:"Amostragem de solo — Agricultura de Precisão",who:"Fábio Veloso da Silva · IAGRO",time:"09h30–11h"},
+    {sala:"sala-maker",bloco:"D-inferior",title:"Drones de pulverização — Silvicultura",who:"Hamilton Takeda · Silvicultura",time:"09h30–12h"},
+    {sala:"lab-informatica",bloco:"D-superior",title:"IA na Prática: ChatGPT e Canva",who:"Bruno Kortz · FATEC Itapetininga",time:"09h30"},
+    {sala:"lab-alimentos",bloco:"A",title:"Subprodutos da Indústria Láctea",who:"Mayara Q. & Maria Cecília R. · FATEC",time:"14h–16h"},
+    {sala:"sala-aula-03",bloco:"C",title:"Biossistemas",who:"Rubens Tabile · FZEA/USP",time:"14h–16h"},
+    {sala:"sala-ti",bloco:"C",title:"Agentes Inteligentes",who:"Adriano E. Daniel · FATEC",time:"14h–15h30"}
+  ]
+};
+
+const blocoMap = {
+  "A":"bloco-a",
+  "C":"bloco-c",
+  "D-inferior":"bloco-d-inf",
+  "D-superior":"bloco-d-sup",
+  "E":"bloco-e"
+};
+
+const svgFiles = {
+  "bloco-a":"assets/img/plantas/bloco-A.svg",
+  "bloco-c":"assets/img/plantas/bloco-C.svg",
+  "bloco-d-inf":"assets/img/plantas/bloco-D-pavimento-inferior.svg",
+  "bloco-d-sup":"assets/img/plantas/bloco-D-pavimento-superior.svg",
+  "bloco-e":"assets/img/plantas/bloco-E.svg"
+};
+
+async function loadSVGs() {
+  for (const [id, url] of Object.entries(svgFiles)) {
+    const resp = await fetch(url);
+    const text = await resp.text();
+    document.getElementById(id).innerHTML = text;
+  }
+  marcarSalas();
+}
+
+function marcarSalas() {
+  const hoje = "23/09";
+  const lista = salas[hoje] || [];
+  const legend = document.getElementById("legend");
+  legend.innerHTML = "";
+
+  lista.forEach(s => {
+    const blocoId = blocoMap[s.bloco];
+    if (!blocoId) return;
+    const svg = document.getElementById(blocoId);
+    if (!svg) return;
+    const g = svg.querySelector('#' + CSS.escape(s.sala));
+    if (!g) return;
+    g.setAttribute("data-ativa", "true");
+    const poly = g.querySelector("polygon, rect");
+    if (poly) {
+      poly.style.fill = "#e8f5e9";
+      poly.style.stroke = "#2e7d32";
+      poly.style.strokeWidth = "4";
+      poly.style.cursor = "pointer";
+    }
+    g.addEventListener("click", () => {
+      alert(s.time + " — " + s.title + "\n" + s.who);
+    });
+
+    const dt = document.createElement("dt");
+    dt.textContent = s.sala.replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
+    const dd = document.createElement("dd");
+    dd.textContent = s.time + " — " + s.title + " · " + s.who;
+    legend.appendChild(dt);
+    legend.appendChild(dd);
+  });
+}
+
+loadSVGs();
+</script>
 </body>
 </html>
