@@ -136,6 +136,7 @@ function marcarSalas() {
   legend.innerHTML = "";
 
   lista.forEach(s => {
+    if (s.flag && s.flag.includes("a confirmar")) return;
     const blocoId = blocoMap[s.bloco];
     if (!blocoId) return;
     const svg = document.getElementById(blocoId);
